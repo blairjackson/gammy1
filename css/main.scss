@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+:root {
+    --font: 'Montserrat', sans-serif;
+    --text_color: black;
+    --menu_text: white;
+
+}
+
+html,
+body {
+    padding: 0;
+    margin: 0;
+    background-color: gray;
+}
+
+.wrapper {
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    outline: 3px solid red;
+}
+
+
+
+
+// ---------------------       MENU   ---------------------      //
+
+
+nav {
+    position: fixed;
+    //  display: flex;
+
+    height: 60px;
+    width: 100%;
+    background-color: rgb(30, 150, 255);
+    z-index: 1;
+
+    ul {
+        list-style-type: none;
+
+    }
+
+    li {
+        display: inline;
+        float: right;
+    }
+
+    a {
+        text-decoration: none;
+        color: var(--menu_text);
+        font-family: var(--font);
+        padding: 1em;
+        font-size: 1.3em;
+    }
+}
+
+
+
+// ------------- Landing Page ------------//
+
+
+.landing {
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    background-image: url(/images/fat.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.landing_content {
+    height: auto;
+    width: auto;
+    align-self: center;
+    padding: 1em;
+}
+
+.main_title {
+    align-self: center;
+    font-family: var(--font);
+    color: var(--text_color);
+    font-size: 2em;
+    letter-spacing: 0.7em;
+    color: white;
+}
+
+h2{
+    align-self: center;
+    font-family: var(--font);
+    color: var(--text_color);
+    letter-spacing: 0.7em;
+    font-size: 1.5em;
+    color: white;
+}
+
+p{
+    align-self: center;
+    font-family: var(--font);
+    color: var(--text_color);
+    letter-spacing: 0.7em;
+    font-size: 1.2em;
+    color: white;
+}
+
+
+
+
+
+// --------------- Footer ------------------//
+
+footer {
+    display: flex;
+    justify-content: center;
+    background-color: green;
+    color: aliceblue;
+    padding: 1em;
+
+}

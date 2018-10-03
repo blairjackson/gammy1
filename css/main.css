@@ -1,0 +1,116 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat");
+:root {
+  --font: 'Montserrat', sans-serif;
+  --text_color: black;
+  --menu_text: white;
+}
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  background-color: gray;
+}
+
+.wrapper {
+  position: relative;
+  height: 100vh;
+  width: 100%;
+  outline: 3px solid red;
+}
+
+nav {
+  position: fixed;
+  height: 60px;
+  width: 100%;
+  background-color: #1e96ff;
+  z-index: 1;
+}
+
+nav ul {
+  list-style-type: none;
+}
+
+nav li {
+  display: inline;
+  float: right;
+}
+
+nav a {
+  text-decoration: none;
+  color: var(--menu_text);
+  font-family: var(--font);
+  padding: 1em;
+  font-size: 1.3em;
+}
+
+.landing {
+  position: relative;
+  height: 100vh;
+  width: 100vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-image: url(/images/fat.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.landing_content {
+  height: auto;
+  width: auto;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  padding: 1em;
+}
+
+.main_title {
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  font-family: var(--font);
+  color: var(--text_color);
+  font-size: 2em;
+  letter-spacing: 0.7em;
+  color: white;
+}
+
+h2 {
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  font-family: var(--font);
+  color: var(--text_color);
+  letter-spacing: 0.7em;
+  font-size: 1.5em;
+  color: white;
+}
+
+p {
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  font-family: var(--font);
+  color: var(--text_color);
+  letter-spacing: 0.7em;
+  font-size: 1.2em;
+  color: white;
+}
+
+footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: green;
+  color: aliceblue;
+  padding: 1em;
+}
+/*# sourceMappingURL=main.css.map */
