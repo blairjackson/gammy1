@@ -54,7 +54,7 @@ nav a {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  background-image: url(images/fat.jpg);
+  background-image: url(fat.jpg);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
